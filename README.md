@@ -58,6 +58,10 @@ A simple Flutter application for video conferencing using VideoSDK.
     flutter run
     ```
 
+
+https://github.com/catalog2003/video-cof/assets/83747762/43fcee07-1ce8-46b8-82f3-37b4575f0185
+
+
 ## Testing the App
 
 1. **Launch the App**: Start the application on your device or emulator.
