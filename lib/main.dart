@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'screens/loading_screen.dart'; // Import LoadingScreen
-import 'screens/meeting_setup_screen.dart'; // Import MeetingSetupScreen
-import 'screens/room_screen.dart'; // Import RoomScreen
+import 'screens/loading_screen.dart';
+import 'screens/meeting_setup_screen.dart';
+import 'screens/room_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoadingScreen(), // Initial screen to be displayed
+      home: LoadingScreen(),
       routes: {
         '/loading': (context) => LoadingScreen(),
         '/setup': (context) => MeetingSetupScreen(),
         '/room': (context) => RoomScreen(
-          meetingId: '', // default value, will be replaced during navigation
-          displayName: '', // default value, will be replaced during navigation
+          meetingId: '', // placeholder
+          displayName: '', // placeholder
         ),
       },
     );
